@@ -49,6 +49,53 @@ namespace filmsController.Controllers{
         }
 
         [HttpPut]
+        public async Task<bool> UpdateBlocks([FromBody]Pelicula pelicula){
+
+            var query = await _context.Peliculas.AsQueryable<Pelicula>().AsNoTracking().ToListAsync();
+
+             if(!string.IsNullOrEmpty(pelicula.Titulo))
+                foreach(var Pelicula in query){
+                    Pelicula.Titulo = pelicula.Titulo;
+                    _context.Update(Pelicula);
+                }
+
+            if(!string.IsNullOrEmpty(pelicula.Director))
+                foreach(var Pelicula in query){
+                    Pelicula.Director = pelicula.Director;
+                    _context.Update(Pelicula);
+                }
+            
+            if(!string.IsNullOrEmpty(pelicula.Genero))
+                foreach(var Pelicula in query){
+                    Pelicula.Genero = pelicula.Genero;
+                    _context.Update(Pelicula);
+                }
+            
+            if(pelicula.Puntuacion >= 0)
+                foreach(var Pelicula in query){
+                    Pelicula.Puntuacion = pelicula.Puntuacion;
+                    _context.Update(Pelicula);
+                }
+            
+            if(!string.IsNullOrEmpty(pelicula.Rating))
+                foreach(var Pelicula in query){
+                    Pelicula.Rating = pelicula.Rating;
+                    _context.Update(Pelicula);
+                }
+            
+            if(pelicula.Anio>=0)
+                foreach(var Pelicula in query){
+                    Pelicula.Anio = pelicula.Anio;
+                    _context.Update(Pelicula);
+                }
+            
+            var rows = await _context.SaveChangesAsync();
+            return rows > 0;
+                
+
+        }
+
+        [HttpPut]
         [Route("{id:int}")]
         public async Task<bool> Update(int id, [FromBody]Pelicula pelicula)
         {
