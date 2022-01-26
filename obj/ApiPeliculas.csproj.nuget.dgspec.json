@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\home\\ApiPeliculas\\ApiPeliculas.csproj": {}
+    "c:\\home\\ApiPeliculas\\ApiPeliculas.csproj": {}
   },
   "projects": {
-    "C:\\home\\ApiPeliculas\\ApiPeliculas.csproj": {
+    "c:\\home\\ApiPeliculas\\ApiPeliculas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\home\\ApiPeliculas\\ApiPeliculas.csproj",
+        "projectUniqueName": "c:\\home\\ApiPeliculas\\ApiPeliculas.csproj",
         "projectName": "ApiPeliculas",
-        "projectPath": "C:\\home\\ApiPeliculas\\ApiPeliculas.csproj",
+        "projectPath": "c:\\home\\ApiPeliculas\\ApiPeliculas.csproj",
         "packagesPath": "C:\\Users\\jona_\\.nuget\\packages\\",
-        "outputPath": "C:\\home\\ApiPeliculas\\obj\\",
+        "outputPath": "c:\\home\\ApiPeliculas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

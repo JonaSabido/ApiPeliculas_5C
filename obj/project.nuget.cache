@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "akE+uU5OaLJFNcejYTkj/75MpC73H6nREAxwqiCMolh4NXorEeWtx6NW0wCNCnz2hWL5OqzjU9c1UgtFoKuMfw==",
+  "dgSpecHash": "xRoRhuRxNde5sXqvEKU76/v/IujCIhYzOWsWwNt9msH/QH3vnCShjiIORBt2KOc0PE6vce8TRrUrOJ+/F8CZFw==",
   "success": true,
-  "projectFilePath": "C:\\home\\ApiPeliculas\\ApiPeliculas.csproj",
+  "projectFilePath": "c:\\home\\ApiPeliculas\\ApiPeliculas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jona_\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jona_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
